@@ -3,11 +3,21 @@ package main
 import (
     "fmt"
     "rsc.io/quote"
-    "os"
 )
 
+func Glass(){
+    fmt.Print(quote.Glass())
+}
 
-func main(){
-    function := os.Args[1]
-    fmt.Print(function)
+
+func Go(){
+    fmt.Print(quote.Go())
+}
+
+func Hello(){
+    fmt.Print(quote.Hello())
+}
+
+func Opt(){
+    fmt.Print(quote.Opt())
 }
