@@ -6,18 +6,18 @@ import (
 )
 
 func Glass(){
-    fmt.Print(quote.Glass())
+    fmt.Println(quote.Glass())
 }
 
 
 func Go(){
-    fmt.Print(quote.Go())
+    fmt.Println(quote.Go())
 }
 
 func Hello(){
-    fmt.Print(quote.Hello())
+    fmt.Println(quote.Hello())
 }
 
 func Opt(){
-    fmt.Print(quote.Opt())
+    fmt.Println(quote.Opt())
 }
